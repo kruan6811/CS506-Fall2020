@@ -2,7 +2,7 @@ import pytest
 
 from cs506 import determinant
 
-def test_euclidean():
+def test_determinant():
     # sanity checks
     try:
         determinant.determinant([])
